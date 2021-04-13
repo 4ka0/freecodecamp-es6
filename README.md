@@ -1,4 +1,4 @@
-freeCodeCamp Basic ES6
+### freeCodeCamp ES6
 
 Completed problems from the ES6 module of the freeCodeCamp course "JavaScript Algorithms and Data Structures".
 
