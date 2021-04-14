@@ -1,0 +1,20 @@
+class Thermostat {
+
+  constructor(fahrenheit) {
+    this._fahrenheit = fahrenheit;
+  }
+
+  get temperature() {
+    var celcius = 5/9 * (this._fahrenheit - 32);
+    return celcius;
+  }
+
+  set temperature(celcius) {
+    this._fahrenheit = celcius * 9.0 / 5 + 32
+  }
+}
+
+const thermos = new Thermostat(76);
+let temp = thermos.temperature;
+thermos.temperature = 26;
+temp = thermos.temperature;
